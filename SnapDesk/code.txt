@@ -1,0 +1,26 @@
+Sha256 {
+>bssid
+>0
+>3
+# country
+Cut_byte {
+>7
+0
+2
+}
+>1
+# TODO >mtp
+>capabilities_information
+# max_a_msdu
+Cut_bit {
+>45
+4
+1
+}
+# oui
+Cut_byte {
+>221
+0
+2
+}
+}

@@ -1,0 +1,11 @@
+[Unit]
+Description=beacon-sniffer
+After=network-online.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/local/bin/beacon-sniffer.sh
+
+[Install]
+WantedBy=multi-user.target
